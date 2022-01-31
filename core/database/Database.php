@@ -14,8 +14,8 @@ class Database
    public static function getPdo(): \PDO
    {
       $dsn = 'mysql:host=localhost;dbname=bistrot;charset=utf8';
-      $user = 'root';
-      $pwd = 'majax69';
+      $user = '';
+      $pwd = '';
 
       try {
          if (self::$instance === null) {
